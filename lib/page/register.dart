@@ -218,13 +218,13 @@ class _RegisterState extends State<Register> {
                         },
                         child: const Text(
                           'Register',
-                          style: const TextStyle(
-                            color: Colors.white,
-                          ),
+                          // style: const TextStyle(
+                          //   color: Colors.white,
+                          // ),
                         ),
-                        style: ElevatedButton.styleFrom(
-                          primary: Colors.blue,
-                        ),
+                        // style: ElevatedButton.styleFrom(
+                        //   primary: Colors.blue,
+                        // ),
                       ),
                     ),
                     const SizedBox(
