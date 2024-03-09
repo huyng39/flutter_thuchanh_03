@@ -61,7 +61,7 @@ class _mainPageState extends State<Mainpage> {
                 children: const[
                   CircleAvatar(
               radius: 40,
-              backgroundImage: NetworkImage('https://lh4.googleusercontent.com/fzjNma5osNribqYZWEUXDJiVHxISyDMUXVpGFZgCPRQkaeumDCnPViCtarotEto4toX4eg=w16383'),
+              backgroundImage: NetworkImage('https://i.pinimg.com/736x/b9/e8/6f/b9e86f43bc31bc7df27d4605503e3dc6.jpg'),
             ),
             SizedBox(
               height: 8,
