@@ -55,13 +55,17 @@ class _mainPageState extends State<Mainpage> {
             DrawerHeader(
               decoration: const BoxDecoration(
                 color: Colors.blue,
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(10),
+                  bottomRight: Radius.circular(10),
+                ),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const[
                   CircleAvatar(
               radius: 40,
-              backgroundImage: NetworkImage('https://i.pinimg.com/736x/b9/e8/6f/b9e86f43bc31bc7df27d4605503e3dc6.jpg'),
+              backgroundImage: NetworkImage('https://qph.cf2.quoracdn.net/main-qimg-7fb4f710e8d9fd5e26ed30c6040cf0bd-lq'),
             ),
             SizedBox(
               height: 8,
